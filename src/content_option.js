@@ -1,156 +1,152 @@
-const logotext = "JOHN";
+const logotext = "KJB";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Kevin Blumenstock",
+    description: "I’m Kevin Blumenstock - Full-Stack Web Developer",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Kevin Blumenstock",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Full-Stack Web Developer",
+        second: "Plant-based Foodie",
+        third: "Decentralization Advocate",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "As a web developer with over 7 years of experience in digital business development at corporate, startup and consultancy level, I bring a unique set of skills that allow me to build successful and outstanding digital products.",
+    your_img_url: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/img/kjb-profile-picture.jpg?raw=true",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Profile",
+    aboutme: "As a web developer with over 7 years of experience in digital business development at corporate, startup and consultancy level, I bring a unique set of skills that allow me to build successful and outstanding digital products. From debugging to big-picture thinking, I approach challenges with contagious passion and find great joy in delivering solutions at the sweetspot of perfectionism and pragmatism to satisfy all stakeholder needs. With strong analytical and communication skills as well as a natural sense for aesthetics, I constantly ensure that my final products are not only functional but also intuitive, engaging and visually pleasing. ",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "Web Developer",
+        where: "nue",
+        date: "today",
+    },
+    {
+        jobtitle: "Web Developer",
+        where: "Blumenstock Ventures",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
+        jobtitle: "Venture Developer",
+        where: "Piloteers",
         date: "2019",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Business Analyst",
+        where: "Deufol",
+        date: "2017",
+    },
+    {
+        jobtitle: "IT Consultant",
+        where: "Deloitte Digital",
+        date: "2016",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "Bubble.io",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "HTML / CSS",
+        value: 75,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "JavaScript",
+        value: 65,
     },
     {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Angular",
+        value: 60,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "No-Code / Low-Code Solutions",
+        description: "Building and launching your web applications to accelerate your digital transformation by 10x in a fraction of time and budget",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Full-Stack Web Applications",
+        description: "Developing robust and scalable web applications to cater to your specific business needs, ensuring a seamless user experience and optimal performance",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Lean Startup",
+        description: "Helping startups and new ventures quickly validate their ideas, reduce development cycles, and efficiently allocate resources, allowing them to gain a competitive edge in their market",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-myFlix-react-400-700.jpg?raw=true",
+        description: "A Netflix-like web app built with React for saving your favorite action movies",
+        link: "https://github.com/kjb92/myFlix-client",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-api-400.jpg?raw=true",
+        description: "A REST-API that provides access to a collection of movie data",
+        link: "https://github.com/kjb92/myFlix",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-gla-400-700.jpg?raw=true",
+        description: "A website with lead magnet for a sustainability coach from Berlin",
+        link: "https://green-living-academy.com/quiz",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-myFlix-angular-400-700.jpg?raw=true",
+        description: "A Netflix-like web app written in Angular for saving your favorite action movies",
+        link: "https://github.com/kjb92/myFlix-Angular-client",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-chat-400.jpg?raw=true",
+        description: "A chat app for mobile devices built with React Native",
+        link: "https://github.com/kjb92/chat-app",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-meet-400-700.jpg?raw=true",
+        description: "A serverless, progressive web application built with React using a test-driven development (TDD) technique",
+        link: "https://github.com/kjb92/meet",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-pok%C3%A9dex-400.jpg?raw=true",
+        description: "A small web application built with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.",
+        link: "https://github.com/kjb92/simple-js-app",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-haelp-w-400-700.jpg?raw=true",
+        description: "A platform for collaboration and mutual-aid with a dual-currency system",
+        link: "https://haelp.org",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-todo-n-400.jpg?raw=true",
+        description: "A simple to-do list app built with jQuery",
+        link: "https://github.com/kjb92/to-do-list-app",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: "https://github.com/kjb92/kjb92.github.io/blob/main/assets/logo/project-logo-portfolio-400-700.jpg?raw=true",
+        description: "A simple portfolio built with HTMl, CSS and JavaScript",
+        link: "https://github.com/kjb92/portfolio-website",
+    }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "kj.blumenstock@gmail.com",
+    YOUR_FONE: "(+49) 170 237 6276",
+    description: "Once you have submitted your message, I will get back to you as soon as possible.",
+    YOUR_SERVICE_ID: "dev-portfolio-website",
+    YOUR_TEMPLATE_ID: "contact_form",
+    YOUR_USER_ID: "_mQXjgl22PwBkzuzT",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/kjb92",
+    linkedin: "https://www.linkedin.com/in/kevinblumenstock/",
+    twitter: "https://twitter.com/kjblumenstock",
 };
 export {
     meta,
