@@ -66,6 +66,26 @@ const skills = [{
         name: "Angular",
         value: 60,
     },
+    {
+        name: "jQuery",
+        value: 35,
+    },
+    {
+        name: "Node / Express",
+        value: 45,
+    },
+    {
+        name: "mongoDB",
+        value: 60,
+    },
+    {
+        name: "REST APIs",
+        value: 70,
+    },
+    {
+        name: "Accessibility",
+        value: 50,
+    }
 ];
 
 const services = [{
